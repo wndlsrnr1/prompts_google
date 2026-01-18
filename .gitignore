@@ -1,0 +1,20 @@
+# Antigravity & Agent files
+.agent/history/
+.agent/memory/
+.agent/sessions/
+docs/sessions/
+tmp/
+*.log
+
+# Windows specific
+thumbs.db
+desktop.ini
+
+# OS specific
+.DS_Store
+
+# Node/Code specific
+node_modules/
+dist/
+build/
+.env
