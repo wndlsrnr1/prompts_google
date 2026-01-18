@@ -5,7 +5,9 @@ This file is auto-generated. It lists all available skills for the agent.
 ## Common (Generals)
 - **brainstorming**: Use when you need to generate ideas, architecture, or solutions before implementation. Can create specific documents like PRD or Architecture Decision Records.
 - **brand-identity**: A single source of truth for brand guidelines, design tokens, technology choices, and voice/tone.
+- **configuring-persona**: Dynamically loads persona definitions, instructions, and styles from the global prompt armory.
 - **creating-skills**: Use when creating new skills or updating existing ones. Follows the Superpowers standard structure.
+
 - **dispatching-parallel-agents**: Use when multiple independent tasks need to be executed in parallel sessions to save time.
 - **executing-plans**: Use when executing a multi-step implementation plan (parallel session mode).
 - **finishing-a-development-branch**: Use when all tasks in a branch/plan are complete. Runs final verification and prepares for merge.
@@ -39,6 +41,7 @@ This file is auto-generated. It lists all available skills for the agent.
 - **writing-java-tests**: Generates Java Unit Tests following strict TDD and Given-When-Then standards.
 
 ## React (Frontend)
+
 - **creating-react-api-modules**: Generates Type-Safe API modules for React returning QueryOptions.
 - **creating-react-components**: Generates React Function Components focusing on rendering only.
 - **creating-react-hooks**: Generates Custom React Hooks for business logic orchestration.

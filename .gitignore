@@ -18,3 +18,15 @@ node_modules/
 dist/
 build/
 .env
+
+
+# 2. Tech Stack Skills (Junctions to Global Brain)
+# These folders are managed by the Skill Kit system.
+# Do not commit them as folders; commit the link creation script instead.
+.agent/skills/common/
+.agent/skills/learning/
+.agent/skills/java/
+.agent/skills/react/
+
+# 3. Dynamic Prompts (Junction to Global Brain)
+.agent/prompts/
